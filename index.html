@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="马嘉俊的个人形象展示网站 — 机械工程学院 · 智能制造工程专业" />
+  <title>马嘉俊 · 个人形象网站</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <!-- ============ 导航 ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">马</span>
+        <span class="brand-text">马嘉俊<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#focus">专业方向</a></li>
+        <li><a href="#works">作品展示</a></li>
+        <li><a href="#contact">联系我们</a></li>
+        <li><a class="nav-cta" href="#contact">联系我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ 首屏 ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="grid-overlay"></span>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-kicker"><span class="kicker-line"></span> PERSONAL PROFILE · 个人形象展示</p>
+          <h1 class="hero-title">
+            你好，我是<span class="hl">马嘉俊</span>
+          </h1>
+          <p class="hero-subtitle">机械工程学院 · 智能制造工程专业 · 在读学生</p>
+            <p class="hero-desc">
+            欢迎来到我的个人形象网站。我来自机械工程学院智能制造工程专业，性格热情开朗、稳重踏实、乐于助人，
+            目前以考研为学习目标，正在不断充实自己、提升专业能力。
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-icon" aria-hidden="true">🎓</span>
+              <div>
+                <span class="meta-label">学院</span>
+                <span class="meta-value">机械工程学院</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon" aria-hidden="true">🆔</span>
+              <div>
+                <span class="meta-label">学号</span>
+                <span class="meta-value">202694114037</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon" aria-hidden="true">⚙️</span>
+              <div>
+                <span class="meta-label">专业</span>
+                <span class="meta-value">智能制造工程</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">了解更多 <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#contact">联系我</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-ring" aria-hidden="true"></div>
+            <img src="assets/portrait.jpg" alt="马嘉俊本人真实形象照片" class="portrait-img" />
+            <div class="portrait-badge">
+              <span class="badge-dot"></span> 本人真实照片
+            </div>
+          </div>
+          <div class="visual-card card-id">
+            <span class="card-id-label">STUDENT ID</span>
+            <span class="card-id-value">202694114037</span>
+          </div>
+          <div class="visual-card card-name">
+            <span class="card-name-cn">马嘉俊</span>
+            <span class="card-name-en">MA JIAJUN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container scroll-hint" aria-hidden="true">
+        <span>向下滚动</span><span class="scroll-arrow">↓</span>
+      </div>
+    </section>
+
+    <!-- ============ 关于我 ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-no">01</span>
+          <div>
+            <h2 class="section-title">关于我</h2>
+            <p class="section-lead">About Me</p>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card" data-reveal>
+            <div class="about-avatar-wrap">
+              <img src="assets/portrait.jpg" alt="马嘉俊" class="about-avatar" />
+            </div>
+            <h3 class="about-name">马嘉俊</h3>
+            <p class="about-role">机械工程学院 · 智能制造工程专业</p>
+            <div class="about-quick">
+              <div><span>学院</span><strong>机械工程学院</strong></div>
+              <div><span>专业</span><strong>智能制造工程</strong></div>
+              <div><span>学号</span><strong>202694114037</strong></div>
+              <div><span>邮箱</span><strong>1715642352@qq.com</strong></div>
+            </div>
+          </div>
+
+          <div class="about-text" data-reveal>
+            <h3 class="about-text-title">一个正在成长中的<span class="hl">工科生</span></h3>
+            <p>
+              我来自机械工程学院智能制造工程专业，目前在校学习。我性格热情开朗、稳重踏实、乐于助人，
+              对智能制造相关知识和工程实践抱有浓厚兴趣。现阶段以考研为目标，希望通过不断探索，
+              把课堂所学转化为真正的能力，在专业道路上继续深造。
+            </p>
+            <p class="placeholder-note">（如有更多个人经历、兴趣特长等，欢迎后续补充）</p>
+
+            <div class="fact-grid">
+              <div class="fact">
+                <span class="fact-icon">📍</span>
+                <div><span class="fact-label">所在学院</span><span class="fact-value">机械工程学院</span></div>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">📚</span>
+                <div><span class="fact-label">所学专业</span><span class="fact-value">智能制造工程</span></div>
+              </div>
+              <div class="fact fact-wide">
+                <span class="fact-icon">💡</span>
+                <div><span class="fact-label">个人标签</span><span class="fact-value">热情开朗 · 稳重踏实 · 乐于助人</span></div>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">🎯</span>
+                <div><span class="fact-label">目标方向</span><span class="fact-value">考研</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 专业方向 ============ -->
+    <section class="section section-alt" id="focus">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-no">02</span>
+          <div>
+            <h2 class="section-title">专业方向</h2>
+            <p class="section-lead">Focus &amp; Skills</p>
+          </div>
+        </div>
+
+        <p class="section-intro" data-reveal>以智能制造工程为专业根基，以考研为现阶段目标。</p>
+
+        <div class="skills-grid">
+          <article class="skill-card" data-reveal>
+            <div class="skill-icon">⚙️</div>
+            <h3>主修专业</h3>
+            <p>智能制造工程 — 机械工程学院在读专业，聚焦智能制造与工程实践。</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-icon">🎯</div>
+            <h3>目标方向</h3>
+            <p>考研 — 以继续深造为目标，持续夯实专业基础、提升综合能力。</p>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-icon">🛠️</div>
+            <h3>专业技能</h3>
+            <p class="placeholder-inline">待补充：如所学课程、建模软件、实验技能等具体情况</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 作品展示 ============ -->
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-no">03</span>
+          <div>
+            <h2 class="section-title">作品展示</h2>
+            <p class="section-lead">Works &amp; Projects</p>
+          </div>
+        </div>
+
+        <p class="section-intro" data-reveal>课程作业、项目实践与个人作品的展示区。</p>
+
+        <div class="works-empty" data-reveal>
+          <div class="works-empty-icon" aria-hidden="true">📂</div>
+          <h3>暂无作品</h3>
+          <p>目前还没有可展示的作品。我正在学习积累中，未来会在这里逐步补充我的课程作业、项目实践与个人作品。</p>
+          <span class="works-empty-tag">敬请期待 · Coming Soon</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 联系我 ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-no">04</span>
+          <div>
+            <h2 class="section-title">联系我</h2>
+            <p class="section-lead">Get In Touch</p>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-copy" data-reveal>
+            <h3>欢迎与我交流</h3>
+            <p>无论是学习交流、项目合作，还是想了解更多关于我的信息，都欢迎通过以下方式联系我。</p>
+            <div class="contact-list">
+              <a class="contact-row" href="mailto:1715642352@qq.com">
+                <span class="contact-icon">✉️</span>
+                <span class="contact-info"><small>电子邮箱</small><strong>1715642352@qq.com</strong></span>
+                <span class="contact-arrow">↗</span>
+              </a>
+              <div class="contact-row">
+                <span class="contact-icon">🏫</span>
+                <span class="contact-info"><small>所在学院</small><strong>机械工程学院 · 智能制造工程</strong></span>
+              </div>
+              <div class="contact-row">
+                <span class="contact-icon">🎓</span>
+                <span class="contact-info"><small>学号</small><strong>202694114037</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" data-reveal>
+            <h3>给我留言 <span class="placeholder-inline" style="font-size:.8rem">（功能占位）</span></h3>
+            <div class="form-row">
+              <label>你的姓名<input type="text" name="name" placeholder="请输入姓名" /></label>
+              <label>联系方式<input type="text" name="contact" placeholder="电话或邮箱" /></label>
+            </div>
+            <label>留言内容<textarea name="message" rows="4" placeholder="写下你想说的话…"></textarea></label>
+            <button type="submit" class="btn btn-primary btn-block">提交留言</button>
+            <p class="form-tip">注：当前为静态展示页面，表单提交功能待后续接入。</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">马</span>
+        <div>
+          <strong>马嘉俊 · 个人形象网站</strong>
+          <p>机械工程学院 · 智能制造工程 &nbsp;|&nbsp; 学号 202694114037</p>
+          <p>邮箱 1715642352@qq.com</p>
+        </div>
+      </div>
+      <div class="footer-source">
+        <h4>模板与素材来源说明</h4>
+        <p>本网站页面结构、样式与交互均为原创手工编写（HTML / CSS / JavaScript），未使用第三方网站模板。</p>
+        <p>页面中所用本人形象照片由用户本人提供（源自《人像.pptx》），为本人真实照片；图标使用通用 Emoji 字符，无外部图片素材。</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 马嘉俊 · 个人形象网站</span>
+      <a href="#top">返回顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
